@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gear-store:war">
+    <output-path>$PROJECT_DIR$/gear-store/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>gear-store</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="gear-store-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="gear-store:war exploded" />
+    </root>
+  </artifact>
+</component>
